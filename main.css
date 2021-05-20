@@ -5,8 +5,136 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+  
 }
 
 html{
     font-size: 62.5%;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+li,button,label,input,p{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2.6rem;
+    font-weight: normal;
+}
+h3{
+    font-size: 3rem;
+}
+h4,h5{
+    font-size: 2.8rem;
+}
+button{
+    padding: 2rem 6rem;
+    border: none;
+    border: 2px solid coral;;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* The Nav Section with Hero */
+
+
+
+.main-head{
+background-color: black;
+
+}
+
+
+
+.main-head nav{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    min-height: 10vh;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    padding: 2rem;
+   
+
+    
+}
+
+li a:hover {
+    background-color: coral;
+    color: rgb(80, 71, 71);
+    padding: 8px 16px;
+  }
+
+.main-head nav ul{
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+.logo {
+    flex: 2 1 30rem;
+    font-family: 'Pattaya', sans-serif;
+   
+}
+
+
+/* The Hero Section down bellow */
+
+
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.5),transparent) ,url(./img/landing-page.jpg);
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.hero h2{
+    padding: 5rem;
+    
+}
+
+
+.button1:hover {
+    background-color: coral;
+    color: white;
+    font-size: 1.8rem;
+  }
+
+  @media only screen and (max-width: 823px) {
+      html{
+          font-size: 35%;
+      }
+  nav{
+      text-align: center;
+  }
+  .logo{
+      padding: 2rem;
+      font-family: 'EB Garamond', serif;
+  }
+  }
