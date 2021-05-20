@@ -19,7 +19,7 @@ Live Server extension.
 ```
 
 ## notice
-this project its portfolio 
+this project for To practice purpose
 
 ## License
 [MIT](https://github.com/Osamah-learn/)
