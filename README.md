@@ -5,7 +5,7 @@
 <a href="https://ibb.co/k2ZPw52"><img src="https://i.ibb.co/LdKscYd/git.jpg" alt="git" border="0"></a>
 
 <h3 dir="rtl"> </h3>
-is the design as you can see in the picture everything related to travel
+ the design as you can see in the picture its about  everything related to traveling...
  <div dir="rtl">
 
 </div>
