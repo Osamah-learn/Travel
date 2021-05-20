@@ -1,21 +1,25 @@
-<h1 dir="rtl"> Travel website project</h1>
-
-<h2 dir="rtl"> About the project</h2>
+# Travelly
+It is a website specializing in everything new related to travel and tourism. I designed it without any design libraries and the site is compatible with all mobile devices, iPads, etc.
 
 <a href="https://ibb.co/k2ZPw52"><img src="https://i.ibb.co/LdKscYd/git.jpg" alt="git" border="0"></a>
 
-<h3 dir="rtl"> </h3>
- the design as you can see in the picture its about  everything related to traveling...
- <div dir="rtl">
+## Installation
 
-</div>
-
-<h3 dir="rtl"> The aim of the project؟</h3>
- is to strengthen skills in design and design application in html and css without design libraries and also compatible with mobile and iPad
-
-
- <div dir="rtl">
-</div>
+You just have to install git and then you can run the website with a live server locally 
+https://github.com/Osamah-learn/Travel.git
 
 
 
+## Usage
+
+Vs code IDE.
+Live Server extension.
+
+
+```
+
+## notice
+this project its portfolio 
+
+## License
+[MIT](https://github.com/Osamah-learn/)
