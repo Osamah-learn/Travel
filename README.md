@@ -1,7 +1,7 @@
 # Travelly
 It is a website specializing in everything new related to travel and tourism. I designed it without any design libraries and the site is compatible with all mobile devices, iPads, etc.
 
-<a href="https://ibb.co/k2ZPw52"><img src="https://i.ibb.co/LdKscYd/git.jpg" alt="git" border="0"></a>
+<a href="https://ibb.co/9TGQWH8"><img src="https://i.ibb.co/1qbFTGv/icon.jpg" alt="icon" border="0"></a>
 
 ## Installation
 
