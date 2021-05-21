@@ -57,6 +57,8 @@ button {
 
 .main-head {
   background-color: black;
+  position: sticky;
+  z-index: 1;
 }
 
 .main-head nav {
