@@ -6,7 +6,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fjalla One', sans-serif;
-  
+    animation: undefined-easeInOutBounce ease-in;
+    animation-duration:   4s;
+    animation-iteration-count: 1;
+    
 }
 
 html{
@@ -112,6 +115,7 @@ li a:hover {
     justify-content: center;
     text-align: center;
     
+    
 }
 
 .hero h2{
@@ -126,6 +130,146 @@ li a:hover {
     font-size: 1.8rem;
   }
 
+
+
+
+
+/*   <!-- Locations Sections --> */
+
+
+.locations{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),transparent), url(./img/new-york-page.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+.locations-head{
+    width:90%;
+    margin: auto;
+}
+
+
+.locations h2{
+    padding:2rem 0rem;
+    font-size: 5rem;
+
+}
+
+.locations h3{
+    padding:4rem 0rem;
+    letter-spacing: 0.3rem;
+    
+
+}
+
+.cloud{
+    position:absolute;
+    top: 0%;
+    right: 0%;
+    pointer-events: none;
+}
+
+
+
+
+.cloud-moving2{
+    top: 15%;
+    z-index: -1;
+    opacity: 0.5;
+    animation:cloudAnimation 7s infinite ease-in-out ;
+}
+
+
+@keyframes cloudAnimation {
+    from {top: 0px;}
+    to {top: 100px;}
+}
+
+
+
+
+@keyframes undefined-easeInOutBounce {
+	0% {
+		transform: translateX(0%);
+	}
+
+	2% {
+		transform: translateX(-0.77%);
+	}
+
+	4% {
+		transform: translateX(-0.33%);
+	}
+
+	10% {
+		transform: translateX(-3%);
+	}
+
+	14% {
+		transform: translateX(-0.98%);
+	}
+
+	22% {
+		transform: translateX(-12.42%);
+	}
+
+	32% {
+		transform: translateX(-1%);
+	}
+
+	42% {
+		transform: translateX(-40.32%);
+	}
+
+	50% {
+		transform: translateX(-50%);
+	}
+
+	58% {
+		transform: translateX(-59.68%);
+	}
+
+	68% {
+		transform: translateX(-99.01%);
+	}
+
+	78% {
+		transform: translateX(-87.58%);
+	}
+
+	86% {
+		transform: translateX(-99.02%);
+	}
+
+	90% {
+		transform: translateX(-97%);
+	}
+
+	96% {
+		transform: translateX(-99.67%);
+	}
+
+	98% {
+		transform: translateX(-99.23%);
+	}
+
+	100% {
+		transform: translateX(-100%);
+	}
+
+}
+
+
+
+
+/*   <!-- Media Query--> */
+
   @media only screen and (max-width: 823px) {
       html{
           font-size: 35%;
@@ -137,4 +281,25 @@ li a:hover {
       padding: 2rem;
       font-family: 'EB Garamond', serif;
   }
+  .locations h2 {
+    padding: 2rem 0rem;
+    font-size: 8rem;
   }
+    .cloud {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        height: 40rem;
+        pointer-events: none;
+    }
+    .main-head {
+        background-color: #ee8b33;
+        padding: 3rem;
+        
+    }
+    h3 {
+        font-size: 4rem;
+        color: white;
+    }
+}
+  
