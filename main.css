@@ -6,9 +6,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fjalla One', sans-serif;
-    animation: undefined-easeInOutBounce ease-in;
+ /*    animation: undefined-easeInOutBounce ease-in;
     animation-duration:   4s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 1; */
     
 }
 
@@ -162,8 +162,9 @@ li a:hover {
 }
 
 .locations h3{
-    padding:4rem 0rem;
+    padding:2rem 0rem;
     letter-spacing: 0.3rem;
+    color: white;
     
 
 }
@@ -265,6 +266,70 @@ li a:hover {
 
 }
 
+/*   <!-- Benefits Section --> */
+
+
+
+.benefits  h3{
+color: rgba(255, 255, 255, 0.877);
+
+}
+.benefits h2 {
+    color: rgba(0, 0, 0, 0.877);
+    font-size: 5rem;
+    padding: 2rem;
+}
+.benefits h4,p{
+    padding: 1rem;
+}
+
+.benefits-head{
+background: rgb(170, 166, 166);
+min-height: 30vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.cards{
+    display: flex;
+    min-height: 60vh;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards img {
+    height:100px;
+    margin: 2rem;
+
+}
+.card-icon{
+    background: rgb(80, 78, 78);
+
+}
+
+.card {
+    background: tomato;
+    flex: 1 1 25rem;
+    margin: 2rem 5rem;
+    min-height: 40vh;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgb(207, 122, 107);
+    
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -273,7 +338,11 @@ li a:hover {
   @media only screen and (max-width: 823px) {
       html{
           font-size: 35%;
+          
       }
+      li, button, label, input, p {
+        font-size: 3rem;
+    }
   nav{
       text-align: center;
   }
@@ -293,7 +362,7 @@ li a:hover {
         pointer-events: none;
     }
     .main-head {
-        background-color: #ee8b33;
+        background-color:black;
         padding: 3rem;
         
     }
